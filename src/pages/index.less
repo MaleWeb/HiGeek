@@ -1,0 +1,387 @@
+.normal {
+}
+
+.title {
+  background: rgb(121, 242, 157);
+}
+
+.pageIndex {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+    margin-bottom: -152px;
+    background-color: #080325;
+
+    .wp {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      margin: -540px 0 0 -960px;
+      width: 1920px;
+      height: 1080px;
+      background-image: url(~@/assets/banner_bg.jpg);
+      background-repeat: no-repeat;
+      background-position: center top;
+
+      .headBg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        .list {
+          height: 100%;
+
+          .listItem {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            opacity: 1;
+
+            .box {
+              position: relative;
+              width: 100%;
+              height: 100%;
+
+              i.earth {
+                position: absolute;
+                top: 82px;
+                left: 0;
+                right: 0;
+                display: block;
+                margin: auto;
+                background: url(~@/assets/earth02.png) no-repeat;
+                width: 730px;
+                height: 730px;
+              }
+
+              .detail {
+                position: absolute;
+                top: 150px;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 588px;
+                height: 588px;
+                box-sizing: border-box;
+                text-align: center;
+                color: #fefefe;
+
+                .logo {
+                  position: absolute;
+                  z-index: 1;
+                  top: 46px;
+                  left: 0;
+                  right: 0;
+                  width: 160px;
+                  height: 160px;
+                  margin: auto;
+                  display: block;
+
+                  i {
+                    background-image: url(~@/assets/logo-index.png);
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    margin: auto;
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+
+                h2 {
+                  position: absolute;
+                  z-index: 1;
+                  top: 210px;
+                  left: 0;
+                  right: 0;
+                  font-size: 72px;
+                  font-weight: lighter;
+                  line-height: 1;
+                  letter-spacing: 12px;
+                }
+
+                p {
+                  position: absolute;
+                  top: 310px;
+                  left: 0;
+                  right: 0;
+                  font-size: 24px;
+                  font-weight: lighter;
+                  line-height: 1;
+                  letter-spacing: 18px;
+                }
+
+                .btn {
+                  position: absolute;
+                  z-index: 2;
+                  top: 354px;
+                  left: 0;
+                  right: 0;
+                  display: block;
+                  margin: auto;
+                  overflow: hidden;
+                  width: 278px;
+                  height: 112px;
+                  line-height: 112px;
+
+                  a {
+                    display: block;
+                    color: #fff;
+                  }
+
+                  &:hover {
+                    button {
+                      &::before {
+                        opacity: 1;
+                        transform: translate3d(0, 0, 0);
+                      }
+                    }
+                  }
+
+                  button {
+                    width: 232px;
+                    height: 64px;
+                    line-height: 64px;
+                    border-radius: 34px;
+                    border: 1px solid #fff;
+                    background: #1ac5ff;
+                    background: rgba(26, 197, 255, 0.1);
+                    transition: 0.25s;
+                    overflow: hidden;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 24px;
+                    color: #fff;
+                    position: relative;
+
+                    &::before {
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      content: '';
+                      width: 100%;
+                      height: 100%;
+                      border-radius: 20px;
+                      opacity: 0;
+                      background: #ffffff;
+                      background: rgba(255, 255, 255, 0.25);
+                      transform: scale3d(0.4, 1, 1);
+                      transition: transform 0.2s, opacity 0.2s;
+                      transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+                    }
+                  }
+                }
+
+                .github {
+                  position: absolute;
+                  z-index: 2;
+                  top: 468px;
+                  left: 0;
+                  right: 0;
+                  display: block;
+                  margin: auto;
+                  overflow: hidden;
+                  color: #fff;
+                  white-space: nowrap;
+
+                  svg {
+                    vertical-align: middle !important;
+                    fill: currentColor;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .line {
+          position: absolute;
+          top: 70px;
+          left: 0;
+          right: 0;
+          width: 750px;
+          height: 750px;
+          margin: auto;
+
+          i {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: block;
+            margin: auto;
+          }
+
+          .circle01 {
+            animation: ani_line 40s linear infinite;
+            background-image: url(~@/assets/pathway.png);
+            background-position: -2436px 0px;
+            background-repeat: no-repeat;
+            width: 719px;
+            height: 719px;
+          }
+
+          .circle02 {
+            animation: ani_line 30s linear infinite reverse;
+            background-image: url(~@/assets/pathway.png);
+            background-position: -2436px -724px;
+            background-repeat: no-repeat;
+            width: 648px;
+            height: 674px;
+          }
+        }
+
+        .pathway {
+          position: absolute;
+          z-index: 1;
+          top: 0;
+          left: 50%;
+          margin-left: -960px;
+          width: 1920px;
+          height: 100%;
+          pointer-events: none;
+
+          .lite {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            transform-origin: center center;
+          }
+
+          .lite01 {
+            animation-duration: 0.4s;
+            top: 188px;
+            background-image: url(~@/assets/pathway.png);
+            background-position: 0px -2075px;
+            background-repeat: no-repeat;
+            width: 1128px;
+            height: 430px;
+          }
+
+          .lite02 {
+            animation-duration: 0.48s;
+            top: 124px;
+            animation: ani_pathway both;
+            animation-delay: 0.2s;
+            background-image: url(~@/assets/pathway.png);
+            background-position: 0px -1487px;
+            background-repeat: no-repeat;
+            width: 1582px;
+            height: 583px;
+          }
+
+          .lite03 {
+            animation-duration: 0.56s;
+            top: 92px;
+            animation: ani_pathway both;
+            animation-delay: 0.2s;
+            background-image: url(~@/assets/pathway.png);
+            background-position: 0px -805px;
+            background-repeat: no-repeat;
+            width: 1772px;
+            height: 677px;
+          }
+
+          .lite04 {
+            animation-duration: 0.64s;
+            top: 85px;
+            left: -256px;
+            animation: ani_pathway both;
+            animation-delay: 0.2s;
+            background-image: url(~@/assets/pathway.png);
+            background-position: 0px 0px;
+            background-repeat: no-repeat;
+            width: 2431px;
+            height: 800px;
+          }
+        }
+
+        .bgline {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          animation: ani_opacity_re 1s 0.3s linear both;
+
+          i {
+            position: absolute;
+            top: 228px;
+            display: block;
+          }
+
+          &01 {
+            left: -10px;
+            background-image: url(~@/assets/pathway.png);
+            background-position: -925px -2510px;
+            background-repeat: no-repeat;
+            width: 910px;
+            height: 514px;
+          }
+
+          &02 {
+            right: 10px;
+            background-image: url(~@/assets/pathway.png);
+            background-position: 0px -2510px;
+            background-repeat: no-repeat;
+            width: 920px;
+            height: 515px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes ani_opacity_re {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes ani_line {
+  0% {
+    transform: none;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ani_pathway {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

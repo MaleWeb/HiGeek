@@ -1,0 +1,37 @@
+{
+    "name": "@vue-materials/uu-map",
+    "version": "1.0.2",
+    "description": "百度地图封装",
+    "author": "陈治军",
+    "files": [
+      "src/"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://uugit.mit.cn/Web/PubLibs/UUPT.Bomb/Bomb.Materials/tree/master/vue-materials/blocks/UUMap"
+    },
+    "license": "MIT",
+    "keywords": [
+      "bomb",
+      "vue",
+      "block"
+    ],
+    "publishConfig": {
+      "access": "public",
+      "registry": "http://192.168.5.66:7001"
+    },
+    "dependencies": {
+      "vue": "^2.5.17"
+    },
+    "config": {
+      "name": "百度地图",
+      "title": "百度地图",
+      "categories": [
+        "Vue"
+      ],
+      "screenshot": "https://uufe-web.oss-cn-beijing.aliyuncs.com/PicLib/bomb/images/UMap_1561621686327.png",
+      "classify": "frontend",
+      "type": "vue",
+      "block": "blocks"
+    }
+  }
